@@ -1,0 +1,1 @@
+[{"id":"41b6fcc14103a913","type":"http request","z":"6374ca0bbd7811ef","name":"Send the shutdown URL for the Octoprint API","method":"POST","ret":"obj","paytoqs":"ignore","url":"http://PINTERIP/api/system/commands/core/shutdown","tls":"","persist":false,"proxy":"","authType":"","senderr":false,"x":1150,"y":300,"wires":[["01a7f0d562465602"]]}]
