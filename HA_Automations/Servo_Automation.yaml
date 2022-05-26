@@ -1,0 +1,11 @@
+alias: 'Flush Toilet '
+description: ''
+trigger:
+  - platform: state
+    entity_id: input_number.servo_control
+condition: []
+action:
+  - data_template:
+      level: '{{ trigger.to_state.state | int }}'
+    service: esphome.toilet_control_servo
+mode: single
